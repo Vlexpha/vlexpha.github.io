@@ -1,0 +1,19 @@
+body {
+    background-color: #208412;
+    transition: 0.5s;
+}
+
+.container {
+    /* display: grid;
+    grid-area: center;
+    grid-template-columns: 
+    "        center        "; */
+    justify-content: center;
+    background: white;
+    margin: 150px 200px;
+    min-width: 300px;
+    min-height: 300px;
+    font-size: 1px;
+    font-weight: 600;
+    transition: 0.1s;
+}

@@ -4,10 +4,6 @@ body {
 }
 
 .container {
-    /* display: grid;
-    grid-area: center;
-    grid-template-columns: 
-    "        center        "; */
     justify-content: center;
     background: white;
     margin: 150px 200px;

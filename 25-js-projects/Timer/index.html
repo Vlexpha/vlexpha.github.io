@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="timer">
+        <div id="hours-space"><input class="display" type="number" id="hours" name="hours" step="1" min="0" max="24"
+                placeholder="HR"></div>
+        <div id="minutes-space"><input class="display" type="number" id="minutes" name="minutes" step="1" min="0"
+                max="59" placeholder="MT"></div>
+        <div id="seconds-space"><input class="display" type="number" id="seconds" name="seconds" step="1" min="0"
+                max="59" placeholder="SC"></div>
+
+        
+        <div id="btndiv"><button class="start" onclick="start()">START</button></div>
+        <div id="btndiv"><button class="reset" onclick="reset()">RESET</button></div>
+
+    </div>
+
+
+
+
+    <script src="main.js" charset="UTF-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+body {
+    min-width: 1200px;
+    background-color: gray;
+}
+
+#timer {
+    display: grid;
+    grid-template-areas: 
+    "left center right";
+    max-width: 800px;
+    min-height: 400px;
+    background: #413839;
+    margin: 100px auto;
+    padding: 0 100px;
+    justify-content: center;
+}
+
+#hours {
+    display: grid;
+    grid-area: left;
+    max-width: 250px;
+    max-height: 100px;
+    background: #29AB87;
+    border: 2px solid black;
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#minutes {
+    display: grid;
+    grid-area: center;
+    max-width: 250px;
+    max-height: 100px;
+    background: #29AB87;
+    border: 2px solid black;
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#seconds {
+    display: grid;
+    grid-area: right;
+    max-width: 250px;
+    max-height: 100px;
+    background: #29AB87;
+    border: 2px solid black;
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#btndiv {
+    max-width: 100px;
+    max-height: 50px;
+    background: #29AB87;
+    border: 2px solid black;
+    font-size: 33px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 142px;
+    margin-bottom: 100px;
+}
